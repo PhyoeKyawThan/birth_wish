@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For_my_Lovely_Brother</title>
+</head>
+<link rel="stylesheet" href="./static/css/style.css">
+<body>
+    <marquee behavior="alternate" direction="left"> 
+        <h2>🧚Happy Birthday Ko Gyi🧚</h2>
+    </marquee>
+    <div id="container">
+        <div id="bdgirl">
+            <img src="{{ url_for('static', filename='imgs/bdgirl.jpg') }}" alt="Birthday_Girl" width="150" class="bdgirl">
+        </div>
+
+        <div id="bdwish">
+            <h4>Happy Birthday A_Thae_Lay</h4>
+            <p>
+                I hope your Birthday is as beautiful and full of love as you are. You deserve only the best, and I wish that for you. Best wishes, koGyi
+            </p>
+        </div>
+        <form action="#" method="post">
+            <label for="tome">Sent me a message if u wish</label>
+            <input type="text" name="tome" id="tome" placeholder="Enter messages for me...">
+            <input type="submit" value="ToMe">
+        </form>
+    </div>
+</body>
+</html>

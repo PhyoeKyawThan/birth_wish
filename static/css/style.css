@@ -1,0 +1,64 @@
+body{
+    background-image: url('../imgs/background.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+h2{
+    color: aquamarine;
+    font-family: cursive;
+
+}
+#container{
+    width: 100%;
+    margin: auto;
+}
+
+#bdwish{
+    margin: 10%;
+}
+
+#bdwish > h4{
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 50px;
+    font-family: cursive;
+}
+
+.bdgirl{
+    margin-left: 31%;
+    border-radius: 100px;
+}
+
+label{
+    color: mediumseagreen;
+}
+
+#bdwish > p{
+    background-image: url('../imgs/bg4wish.webp');
+    background-size: cover;
+    color:aquamarine;
+    margin-left: 30px;
+    padding-top: 60px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: black;
+}
+
+form{
+    text-align: center;
+}
+
+input:hover{
+    border: green;
+    color: black;
+}
